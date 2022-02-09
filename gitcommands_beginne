@@ -1,0 +1,14 @@
+git --version           #Git Version
+git init                #initializes git repository and creates .git file in the directory)
+git status              #lists out all the directories & files)
+rm -rf .git             #to remove repo)
+touch .gitignore        #creates git ignore file where we add all the files & directories that
+                            should be ignored)
+ls -la                  #to list out all files)
+git add <filename>      #add file to staging area)
+git add -A              #adds everything to staging area)
+git rm --cached         #to remove files from staging)
+git reset <filename>    #to remove from staging area)
+git reset               #to remove everything from staging)
+git commit -m <message> #to commit all the files in staging area)
+git log                 #to view the log history of git repo)
