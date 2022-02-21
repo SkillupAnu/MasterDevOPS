@@ -12,3 +12,4 @@ git reset <filename>    #to remove from staging area)
 git reset               #to remove everything from staging)
 git commit -m <message> #to commit all the files in staging area)
 git log                 #to view the log history of git repo)
+#hello test
